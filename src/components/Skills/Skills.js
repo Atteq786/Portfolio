@@ -34,10 +34,10 @@ function Skills  () {
           <h5> JavaScript</h5>
         </li>
 
-        <li  className='skills__list-item btn btn--plain'>
+        {/* <li  className='skills__list-item btn btn--plain'>
           <SiJquery size={80} id="color"/>
           <h5> JQuery</h5>
-        </li>
+        </li> */}
 
 
         <li  className='skills__list-item btn btn--plain'>
@@ -51,10 +51,10 @@ function Skills  () {
           <h5>MongoDB</h5>
         </li>
 
-        <li  className='skills__list-item btn btn--plain'>
+        {/* <li  className='skills__list-item btn btn--plain'>
           <SiRedux size={80} id="color"/>
           <h5>Redux</h5>
-        </li>
+        </li> */}
 
         <li  className='skills__list-item btn btn--plain'>
           <SiExpress size={80} id="color"/>
