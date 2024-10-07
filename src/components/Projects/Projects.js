@@ -46,7 +46,7 @@ function Projects()
 
 {/* <-------------------------------------------------1 start-------------------------------------------> */}
 
-<div className='project' id='project'>
+{/* <div className='project' id='project'>
 
 <div>
    <Splide  options={ { rewind: true , gap   : '1rem', heightRatio:.53 } } aria-label="React Splide Example">
@@ -100,9 +100,9 @@ function Projects()
     </a>
 
 
-    {/* <a href="https://github.com/ahsaanullah0088/react-admin-dashboard-" target="_blank" >
+    <a href="https://github.com/ahsaanullah0088/react-admin-dashboard-" target="_blank" >
       <span type='button' className='btn btn--outline'>  View Code </span>
-    </a> */}
+    </a>
 
 </div>
 
@@ -110,7 +110,7 @@ function Projects()
 </div> 
 
 
-</div>
+</div> */}
 {/* --------------------------------------------------------------------------------------- */}
     {/* <div className='project' id='project'>
 
