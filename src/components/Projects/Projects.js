@@ -221,7 +221,7 @@ function Projects()
 
 
    <div id='b'>
-       <a href="https://gleaming-starlight-35a3ec.netlify.app/"  target="_blank">
+       <a href="https://todo-list-by-atteq.netlify.app/"  target="_blank">
             <span type='button' className='btn btn--outline'>  Watch Live </span>
           </a>
 
