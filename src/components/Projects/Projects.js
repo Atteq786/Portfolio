@@ -13,11 +13,13 @@ import Tpreview1 from '../assets/todo-p1.jpeg'
 import Tpreview2 from '../assets/todo-p2.jpeg'
 import Tpreview3 from '../assets/todo-p3.jpeg'
 
+import Majestic from '../assets/Majestic Interiors Homepage.png'
+
 import Epreview1 from '../assets/startup-p2.png'
 import Epreview2 from '../assets/startupp3.png'
 import Epreview3 from '../assets/startupp4.png'
 
-import travels from '../assets/p4-1.png'
+
 
 import genimi from '../assets/genimi.png'
 
@@ -240,21 +242,22 @@ function Projects()
 <div className='project' id='project'>
 
 <div>
-<Splide  options={ { rewind: true , gap   : '1rem', heightRatio:.53 } } aria-label="React Splide Example">
-            <SplideSlide>
-             <img src={travels} alt="Image 1"/>
-            </SplideSlide>
-
-
-        </Splide>
+  <Splide 
+    options={ { rewind: true, gap: '1rem', heightRatio: .53 } } 
+    aria-label="React Splide Example"
+  >
+    <SplideSlide>
+      <img src={Majestic} alt="Majestic Interiors"/>
+    </SplideSlide>
+  </Splide>
 </div>
 
 <div>
 
-  <h3 className="about_project">Travels</h3>
+  <h3 className="about_project">Majestic Interiors</h3>
 
   <p className='project__description'>
- This is a travels website in which we use ReactJs form Front-End. This Travel website contain Pages Popular places , Travel outside , Online pakages, Register page , Start making money page
+  Welcome to Majestic Interiors, your destination for elegance and sophistication. Our site features Popular Places, Design Trends, Online Packages, Register, and Start Your Journey pages. Dive into luxurious design inspirations and transform your spaces with style.
 </p>
   <ul className='project__stack' >
  
@@ -272,7 +275,7 @@ function Projects()
 
 
    <div id='b'>
-       <a href="https://deluxe-lebkuchen-85e4ef.netlify.app/?#"  target="_blank">
+       <a href="https://majestic-interiors.netlify.app/"  target="_blank">
             <span type='button' className='btn btn--outline'>  Watch Live </span>
           </a>
 
