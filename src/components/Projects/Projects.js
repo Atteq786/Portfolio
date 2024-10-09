@@ -247,7 +247,7 @@ function Projects()
     aria-label="React Splide Example"
   >
     <SplideSlide>
-      <img src={Majestic} alt="Majestic Interiors"/>
+      <img src={Majestic} alt="MajesticInteriors"/>
     </SplideSlide>
   </Splide>
 </div>
