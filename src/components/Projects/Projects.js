@@ -21,7 +21,10 @@ import Epreview3 from '../assets/startupp4.png'
 
 
 
-import genimi from '../assets/genimi.png'
+import chiccozy1 from `../assets/Chick&Cozy1.png`
+import chiccozy2 from `../assets/Chick&Cozy2.png`
+import chiccozy3 from `../assets/Chick&Cozy3.png`
+import chiccozy4 from `../assets/Chick&Cozy4.png`
 
 import cofee from '../assets/cofee.png'
 
@@ -293,13 +296,22 @@ function Projects()
 </div>
 
 {/* <-------------------------------------------------2 end-------------------------------------------> */}
-{/* 
+
 <div className='project' id='project'>
 
 <div>
 <Splide  options={ { rewind: true , gap   : '1rem', heightRatio:.53 } } aria-label="React Splide Example">
             <SplideSlide>
-             <img src={genimi} alt="Image 1"/>
+              <img src={chiccozy1} alt="Image 1" />
+            </SplideSlide>
+            <SplideSlide>
+              <img src={chiccozy2} alt="Image 2" />
+            </SplideSlide>
+            <SplideSlide>
+              <img src={chiccozy3} alt="Image 3" />
+            </SplideSlide>
+            <SplideSlide>
+              <img src={chiccozy4} alt="Image 4" />
             </SplideSlide>
 
 
@@ -308,7 +320,7 @@ function Projects()
 
 <div>
 
-  <h3 className="about_project">Genimi Clone</h3>
+  <h3 className="about_project">Chic & Cozy</h3>
 
   <p className='project__description'>
     its a genimi clone in which I use Genimi api for creating this website I fetch data from genimi api and show it on my website. I use vite ReactJs and tailwind css for front-end. I use animations and transitions to make it more attractive.
@@ -329,14 +341,14 @@ function Projects()
 
 
    <div id='b'>
-       <a href="https://genimi-clone.netlify.app/"  target="_blank">
+       <a href="https://chic-cozy.netlify.app/"  target="_blank">
             <span type='button' className='btn btn--outline'>  Watch Live </span>
           </a>
 
 
-          <a href="https://github.com/ahsaanullah0088/Genimi_clone"  target="_blank">
+          {/* <a href="https://github.com/ahsaanullah0088/Genimi_clone"  target="_blank">
             <span type='button' className='btn btn--outline'>  View Code </span>
-          </a>
+          </a> */}
     
      </div>
 
@@ -344,7 +356,7 @@ function Projects()
 </div> 
 
 
-</div> */}
+</div>
 
 {/* <-------------------------------------------------3 start-------------------------------------------> */}
 
