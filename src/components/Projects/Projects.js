@@ -21,10 +21,10 @@ import Epreview3 from '../assets/startupp4.png'
 
 
 
-import chiccozy1 from `../assets/Chick&Cozy1.png`
-import chiccozy2 from `../assets/Chick&Cozy2.png`
-import chiccozy3 from `../assets/Chick&Cozy3.png`
-import chiccozy4 from `../assets/Chick&Cozy4.png`
+import cc1 from '../assets/Chick&Cozy1.png'
+import cc2 from '../assets/Chick&Cozy2.png'
+import cc3 from '../assets/Chick&Cozy3.png'
+import cc4 from '../assets/Chick&Cozy4.png'
 
 import cofee from '../assets/cofee.png'
 
@@ -302,16 +302,16 @@ function Projects()
 <div>
 <Splide  options={ { rewind: true , gap   : '1rem', heightRatio:.53 } } aria-label="React Splide Example">
             <SplideSlide>
-              <img src={chiccozy1} alt="Image 1" />
+              <img src={cc1} alt="Image 1" />
             </SplideSlide>
             <SplideSlide>
-              <img src={chiccozy2} alt="Image 2" />
+              <img src={cc2} alt="Image 2" />
             </SplideSlide>
             <SplideSlide>
-              <img src={chiccozy3} alt="Image 3" />
+              <img src={cc3} alt="Image 3" />
             </SplideSlide>
             <SplideSlide>
-              <img src={chiccozy4} alt="Image 4" />
+              <img src={cc4} alt="Image 4" />
             </SplideSlide>
 
 
@@ -323,8 +323,8 @@ function Projects()
   <h3 className="about_project">Chic & Cozy</h3>
 
   <p className='project__description'>
-    its a genimi clone in which I use Genimi api for creating this website I fetch data from genimi api and show it on my website. I use vite ReactJs and tailwind css for front-end. I use animations and transitions to make it more attractive.
-</p>
+            Chic & Cozy is a sophisticated home decor project offering exclusive and contemporary pieces designed to transform living spaces. It provides unparalleled comfort and style, elevating everyday home environments.
+            </p>
   <ul className='project__stack' >
  
     <li className='project__stack-item' id='stacks'>
