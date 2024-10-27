@@ -5,6 +5,7 @@ import {IoLogoJavascript} from "react-icons/io"
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 //import assets
+
 import Rpreview1 from '../assets/Resort-p1.jpg'
 import Rpreview2 from '../assets/Resort-p2.jpg'
 import Rpreview3 from '../assets/Resort-p3.jpg'
@@ -20,10 +21,9 @@ import Organica from '../assets/Organica.png'
 
 
 
-import cc1 from '../assets/Chick&Cozy1.png'
-import cc2 from '../assets/Chick&Cozy2.png'
-import cc3 from '../assets/Chick&Cozy3.png'
-import cc4 from '../assets/Chick&Cozy4.png'
+import funnelagency1 from '../assets/Funnel Agency 1.png'
+import funnelagency2 from '../assets/Funnel Agency 2.png'
+
 
 import cofee from '../assets/cofee.png'
 
@@ -100,8 +100,12 @@ function Projects()
 </div> 
 
 
-</div> }
-{/* --------------------------------------------------------------------------------------- */}
+      </div>}
+      
+
+      {/* --------------------------------------------------------------------------------------- */}
+      
+
     {/* <div className='project' id='project'>
 
       <div>
@@ -173,15 +177,12 @@ function Projects()
 <div>
 <Splide  options={ { rewind: true , gap   : '1rem', heightRatio:.53 } } aria-label="React Splide Example">
             <SplideSlide>
-             <img src={Tpreview1} alt="Image 1"/>
+             <img src={funnelagency1} alt="Image 1"/>
             </SplideSlide>
            <SplideSlide>
-           <img src={Tpreview2} alt="Image 2"/>
+           <img src={funnelagency2} alt="Image 2"/>
            </SplideSlide>
 
-           <SplideSlide>
-           <img src={Tpreview3} alt="Image 2"/>
-           </SplideSlide>
 
 
         </Splide>
@@ -189,10 +190,10 @@ function Projects()
 
 <div>
 
-  <h3 className="about_project">Todo List</h3>
+  <h3 className="about_project">Funnel Agency</h3>
 
   <p className='project__description'>
-  MERN Todo List offers a convenient and flexible solution for managing tasks effectively. It combines the power of the MERN stack with a sleek and intuitive interface, making it the ideal tool for boosting productivity and keeping track of your to-do list.  </p>
+  This is a comprehensive landing page created with modern web technologies, showcasing the services of Funnel Agency. The page includes sections for Home, About, Services, and Contact, designed to provide a seamless user experience. The layout is fully responsive, ensuring optimal viewing on all devices.  </p>
 
 
   <ul className='project__stack' >
@@ -211,12 +212,12 @@ function Projects()
 
 
    <div id='b'>
-       <a href="https://todo-list-by-atteq.netlify.app/"  target="_blank">
+       <a href="https://funnel-agency-landing-page.netlify.app/"  target="_blank">
             <span type='button' className='btn btn--outline'>  Watch Live </span>
           </a>
 
-{/* 
-          <a href="https://github.com/ahsaanullah0088/Notepad"  target="_blank">
+
+          {/* <a href="https://github.com/ahsaanullah0088/Notepad"  target="_blank">
             <span type='button' className='btn btn--outline'>  View Code </span>
           </a>
      */}
@@ -227,6 +228,8 @@ function Projects()
 
 
 </div>
+
+{/* ----------------------------Project 3------------------------------- */}
 <div className='project' id='project'>
 
 <div>
@@ -282,7 +285,7 @@ function Projects()
 
 {/* <-------------------------------------------------2 end-------------------------------------------> */}
 
-<div className='project' id='project'>
+{/* <div className='project' id='project'>
 
 <div>
 <Splide  options={ { rewind: true , gap   : '1rem', heightRatio:.53 } } aria-label="React Splide Example">
@@ -331,9 +334,9 @@ function Projects()
           </a>
 
 
-          {/* <a href="https://github.com/ahsaanullah0088/Genimi_clone"  target="_blank">
+          { <a href="https://github.com/ahsaanullah0088/Genimi_clone"  target="_blank">
             <span type='button' className='btn btn--outline'>  View Code </span>
-          </a> */}
+          </a> }
     
      </div>
 
@@ -341,7 +344,7 @@ function Projects()
 </div> 
 
 
-</div>
+</div> */}
 
 {/* <-------------------------------------------------3 start-------------------------------------------> */}
 
