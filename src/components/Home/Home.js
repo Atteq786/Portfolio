@@ -15,13 +15,13 @@ function Home()
         </h1>
     
       <h2 className="typer"> 
-        <Typewriter options={{strings:["A Full Stack Web Developer","Curious to learn new things"],
+        <Typewriter options={{strings:["Digital Craft'sman", "A Full Stack Web Developer","Curious to learn new things"],
         autoStart:true,loop:true,deleteSpeed:50}}/>
       </h2> 
 
 
         <p id="des">Adaptable and responsible web developer capable of writing production ready code using HTML, CSS, JavaScript,
-         React.Js on the front-end and NodeJs, Express.Js, and MongoDB on the back-end to build single-page applications.</p>
+         React.Js on the front-end and NodeJs, Express.Js, MySQL and MongoDB on the back-end to build single-page applications.</p>
   
  
        <section id="social">

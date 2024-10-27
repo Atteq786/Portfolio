@@ -49,7 +49,7 @@ function About  () {
                  
                  <div>
         
-                   <img src={Image} alt='Ameer Hamza' id='profile'/>
+                   <img src={Image} alt='Muhammad Atteq' id='profile'/>
     
                  </div>
 

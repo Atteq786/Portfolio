@@ -15,9 +15,8 @@ import Tpreview3 from '../assets/todo-p3.jpeg'
 
 import Majestic from '../assets/Majestic Interiors Homepage.png'
 
-import Epreview1 from '../assets/startup-p2.png'
-import Epreview2 from '../assets/startupp3.png'
-import Epreview3 from '../assets/startupp4.png'
+import Organica from '../assets/Organica.png'
+
 
 
 
@@ -51,36 +50,22 @@ function Projects()
 
 {/* <-------------------------------------------------1 start-------------------------------------------> */}
 
-{/* <div className='project' id='project'>
+{ <div className='project' id='project'>
 
 <div>
    <Splide  options={ { rewind: true , gap   : '1rem', heightRatio:.53 } } aria-label="React Splide Example">
       <SplideSlide>
-       <img src={dash1} alt="Image 1"/>
+       <img src={Organica} alt="Image 1"/>
       </SplideSlide>
-     <SplideSlide>
-     <img src={dash2} alt="Image 2"/>
-     </SplideSlide>
-
-     <SplideSlide>
-     <img src={dash3} alt="Image 2"/>
-     </SplideSlide>
-     <SplideSlide>
-     <img src={dash4} alt="Image 2"/>
-     </SplideSlide>
-     <SplideSlide>
-     <img src={dash5} alt="Image 2"/>
-     </SplideSlide>
-
   </Splide>
 </div>
 
 <div>
 
-  <h3 className="about_project">Admin Dashboard</h3>
+  <h3 className="about_project">Organica</h3>
 
   <p className='project__description'>
-  This is a dashboard made with react and tailwind css , material UI in which we can see the data of our website. This dashboard contain 4 pages Home, Users, Products and Settings. This dashboard is fully responsive and user friendly.  </p>
+  Organica is a platform designed to offer the freshest organic fruits and vegetables, cultivated without synthetic pesticides or GMOs to support a healthier lifestyle. With an intuitive, easy-to-navigate interface, users can explore a wide selection of nutrient-rich produce.  </p>
 
 
   <ul className='project__stack' >
@@ -100,14 +85,14 @@ function Projects()
 
 
 <div id='b'>
- <a href="https://dashboard-react11.netlify.app/"  target="_blank">
+ <a href="https://organica-healthy-fruits-and-vegetable.netlify.app/"  target="_blank">
       <span type='button' className='btn btn--outline'>  Watch Live </span>
     </a>
 
 
-    <a href="https://github.com/ahsaanullah0088/react-admin-dashboard-" target="_blank" >
+    {/* <a href="https://github.com/Atteq786/Organica" target="_blank" >
       <span type='button' className='btn btn--outline'>  View Code </span>
-    </a>
+    </a> */}
 
 </div>
 
@@ -115,7 +100,7 @@ function Projects()
 </div> 
 
 
-</div> */}
+</div> }
 {/* --------------------------------------------------------------------------------------- */}
     {/* <div className='project' id='project'>
 
