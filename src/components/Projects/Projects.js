@@ -21,8 +21,10 @@ import Organica from '../assets/Organica.png'
 
 
 
-import funnelagency1 from '../assets/Funnel Agency 1.png'
-import funnelagency2 from '../assets/Funnel Agency 2.png'
+import chicandcozy1 from '../assets/Chick&Cozy1.png'
+import chicandcozy2 from '../assets/Chick&Cozy2.png'
+import chicandcozy3 from '../assets/Chick&Cozy3.png'
+import chicandcozy4 from '../assets/Chick&Cozy4.png'
 
 
 import cofee from '../assets/cofee.png'
@@ -177,10 +179,16 @@ function Projects()
 <div>
 <Splide  options={ { rewind: true , gap   : '1rem', heightRatio:.53 } } aria-label="React Splide Example">
             <SplideSlide>
-             <img src={funnelagency1} alt="Image 1"/>
+             <img src={chicandcozy1} alt="Image 1"/>
             </SplideSlide>
            <SplideSlide>
-           <img src={funnelagency2} alt="Image 2"/>
+           <img src={chicandcozy2} alt="Image 2"/>
+           </SplideSlide>
+           <SplideSlide>
+           <img src={chicandcozy3} alt="Image 3"/>
+           </SplideSlide>
+           <SplideSlide>
+           <img src={chicandcozy4} alt="Image 4"/>
            </SplideSlide>
 
 
