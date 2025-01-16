@@ -190,10 +190,10 @@ function Projects()
 
 <div>
 
-  <h3 className="about_project">Funnel Agency</h3>
+  <h3 className="about_project">Chic & Cozy Ecommerce</h3>
 
   <p className='project__description'>
-  This is a comprehensive landing page created with modern web technologies, showcasing the services of Funnel Agency. The page includes sections for Home, About, Services, and Contact, designed to provide a seamless user experience. The layout is fully responsive, ensuring optimal viewing on all devices.  </p>
+  Chic & Cozy is a premium online store offering high-quality home furnishings at affordable prices. The website features a user-friendly interface with sections for Home, Products, About, and Contact, providing a seamless shopping experience. Customer testimonials highlight the exceptional quality, timely delivery, supportive customer service, and hassle-free return policy.  </p>
 
 
   <ul className='project__stack' >
@@ -212,7 +212,7 @@ function Projects()
 
 
    <div id='b'>
-       <a href="https://funnel-agency-landing-page.netlify.app/"  target="_blank">
+       <a href="https://chicandcozy.vercel.app/"  target="_blank">
             <span type='button' className='btn btn--outline'>  Watch Live </span>
           </a>
 

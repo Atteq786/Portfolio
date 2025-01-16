@@ -3,7 +3,7 @@ import './Footer.css'
 const Footer = () => (
   <footer className='footer'>
     <a
-      href='https://github.com/Ameer-Hamza289/portfolio'
+      href='https://github.com/atteq786'
       className='link footer__link' target="_blank"
     >
     ©2024 All rights reserved - Muhammad Atteq
