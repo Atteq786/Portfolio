@@ -6,17 +6,12 @@ import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 //import assets
 
-import Rpreview1 from '../assets/Resort-p1.jpg'
-import Rpreview2 from '../assets/Resort-p2.jpg'
-import Rpreview3 from '../assets/Resort-p3.jpg'
 
-import Tpreview1 from '../assets/todo-p1.jpeg'
-import Tpreview2 from '../assets/todo-p2.jpeg'
-import Tpreview3 from '../assets/todo-p3.jpeg'
 
 import Majestic from '../assets/Majestic Interiors Homepage.png'
 
-import Organica from '../assets/Organica.png'
+import Dastefarakh1 from '../assets/DF1'
+import Dastefarakh2 from '../assets/DF2'
 
 
 
@@ -28,13 +23,6 @@ import chicandcozy4 from '../assets/Chick&Cozy4.png'
 
 
 import cofee from '../assets/cofee.png'
-
-import IMDB from '../assets/imdb.png'
-import dash1 from '../assets/dash1.png'
-import dash2 from '../assets/dash2.png'
-import dash3 from '../assets/dash3.png'
-import dash4 from '../assets/dash4.png'
-import dash5 from '../assets/dash5.png'
 
 
 import '../ProjectContainer/ProjectContainer.css'
@@ -50,51 +38,50 @@ function Projects()
     <section id='projects' className='section projects'>
       <h2 className='section__title about_project' >Projects</h2>
 
-{/* <-------------------------------------------------1 start-------------------------------------------> */}
+/* <-------------------------------------------------1 start-------------------------------------------> */}
 
-{ <div className='project' id='project'>
+<div className='project' id='project'>
 
 <div>
-   <Splide  options={ { rewind: true , gap   : '1rem', heightRatio:.53 } } aria-label="React Splide Example">
-      <SplideSlide>
-       <img src={Organica} alt="Image 1"/>
-      </SplideSlide>
+  <Splide  options={ { rewind: true , gap   : '1rem', heightRatio:.53 } } aria-label="React Splide Example">
+    <SplideSlide>
+     <img src={Dastefarakh1} alt="DasteFarakh Screenshot 1"/>
+    </SplideSlide>
+    <SplideSlide>
+     <img src={Dastefarakh2} alt="DasteFarakh Screenshot 2"/>
+    </SplideSlide>
   </Splide>
 </div>
 
 <div>
 
-  <h3 className="about_project">Organica</h3>
+  <h3 className="about_project">DasteFarakh</h3>
 
   <p className='project__description'>
-  Organica is a platform designed to offer the freshest organic fruits and vegetables, cultivated without synthetic pesticides or GMOs to support a healthier lifestyle. With an intuitive, easy-to-navigate interface, users can explore a wide selection of nutrient-rich produce.  </p>
-
+   DasteFarakh is a non-profit organization dedicated to supporting underprivileged communities through charitable initiatives and social welfare programs. The website provides information about ongoing projects, donation opportunities, and ways to get involved, making it easy for visitors to contribute and support the cause.
+  </p>
 
   <ul className='project__stack' >
- 
-    <li className='project__stack-item' id='stacks'>
-      <SiHtml5 size={40} />
-       <IoLogoJavascript size={40} />
-      <SiCss3 size={40}/>
-      <FaReact size={50}/>
-    </li>
-
+   <li className='project__stack-item' id='stacks'>
+    <SiHtml5 size={40} />
+    <IoLogoJavascript size={40} />
+    <SiCss3 size={40}/>
+    <FaReact size={50}/>
+   </li>
   </ul>
 
+  <div id='b'>
+   <a href="https://dastefarakh.org/" target="_blank">
+    <span type='button' className='btn btn--outline'>  Watch Live </span>
+   </a>
+   {/* <a href="https://github.com/Atteq786/DasteFarakh" target="_blank" >
+    <span type='button' className='btn btn--outline'>  View Code </span>
+   </a> */}
+  </div>
 
+</div> 
 
-
-
-
-<div id='b'>
- <a href="https://organica-healthy-fruits-and-vegetable.netlify.app/"  target="_blank">
-      <span type='button' className='btn btn--outline'>  Watch Live </span>
-    </a>
-
-
-    {/* <a href="https://github.com/Atteq786/Organica" target="_blank" >
-      <span type='button' className='btn btn--outline'>  View Code </span>
-    </a> */}
+</div>}
 
 </div>
 
