@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7508fd35.css",
+    "main.js": "/static/js/main.d79c020d.js",
+    "static/media/cofee.png": "/static/media/cofee.2404673585af2559f1b0.png",
+    "static/media/Chick&Cozy1.png": "/static/media/Chick&Cozy1.6a4ab11aa43f67cb2f54.png",
+    "static/media/Majestic Interiors Homepage.png": "/static/media/Majestic Interiors Homepage.a94cd2a9a322a29b56e7.png",
+    "static/media/DF1.png": "/static/media/DF1.aaad00643dcff574876a.png",
+    "static/media/Chick&Cozy4.png": "/static/media/Chick&Cozy4.5dda007a764f0070f69e.png",
+    "static/media/Chick&Cozy2.png": "/static/media/Chick&Cozy2.480fd0c3053ccfebdbfa.png",
+    "static/media/Chick&Cozy3.png": "/static/media/Chick&Cozy3.2dd1cbfee11f442a3e8c.png",
+    "static/media/DF2.png": "/static/media/DF2.0bc39803e619d5a3f59c.png",
+    "static/media/image.png": "/static/media/image.bf870e81c07529561a4b.png",
+    "index.html": "/index.html",
+    "main.7508fd35.css.map": "/static/css/main.7508fd35.css.map",
+    "main.d79c020d.js.map": "/static/js/main.d79c020d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7508fd35.css",
+    "static/js/main.d79c020d.js"
+  ]
+}

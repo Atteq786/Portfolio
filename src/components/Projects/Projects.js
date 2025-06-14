@@ -10,8 +10,8 @@ import '@splidejs/react-splide/css';
 
 import Majestic from '../assets/Majestic Interiors Homepage.png'
 
-import Dastefarakh1 from '../assets/DF1'
-import Dastefarakh2 from '../assets/DF2'
+import Dastefarakh1 from '../assets/DF1.png'
+import Dastefarakh2 from '../assets/DF2.png'
 
 
 
@@ -38,9 +38,9 @@ function Projects()
     <section id='projects' className='section projects'>
       <h2 className='section__title about_project' >Projects</h2>
 
-/* <-------------------------------------------------1 start-------------------------------------------> */}
+      {/* <-------------------------------------------------1 start-------------------------------------------> */}
 
-<div className='project' id='project'>
+      <div className='project' id='project'>
 
 <div>
   <Splide  options={ { rewind: true , gap   : '1rem', heightRatio:.53 } } aria-label="React Splide Example">
@@ -71,28 +71,18 @@ function Projects()
   </ul>
 
   <div id='b'>
-   <a href="https://dastefarakh.org/" target="_blank">
-    <span type='button' className='btn btn--outline'>  Watch Live </span>
-   </a>
-   {/* <a href="https://github.com/Atteq786/DasteFarakh" target="_blank" >
-    <span type='button' className='btn btn--outline'>  View Code </span>
-   </a> */}
+    <a href="https://dastefarakh.org/" target="_blank">
+      <span type='button' className='btn btn--outline'>  Watch Live  </span>
+    </a>
+    {/* <a href="https://github.com/Atteq786/DasteFarakh" target="_blank" >
+      <span type='button' className='btn btn--outline'>  View Code </span>
+    </a> */}
   </div>
-
 </div> 
-
-</div>}
 
 </div>
 
-
-</div> 
-
-
-      </div>}
-      
-
-      {/* --------------------------------------------------------------------------------------- */}
+{/* --------------------------------------------------------------------------------------- */}
       
 
     {/* <div className='project' id='project'>
@@ -509,7 +499,7 @@ function Projects()
 </div> */}
 
     </section>
-  )
+  );
 }
 
-export default Projects
+export default Projects;
